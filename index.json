@@ -1,0 +1,30 @@
+[
+  {
+    "manifestVersion": 2,
+    "name": "Jimaku",
+    "id": "jimaku",
+    "description": "Fetches files from jimaku.cc matched by AniList ID. Requires a free API key from jimaku.cc account settings.",
+    "version": "1.0.1",
+    "type": "subtitle",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": ["JP"],
+    "url": "aHR0cHM6Ly9qaW1ha3UuY2M=",
+    "icon": "https://jimaku.cc/favicon.ico",
+    "update": "https://raw.githubusercontent.com/anzaldoignacio/jimaku-extension/refs/heads/main/index.json",
+    "code": "https://raw.githubusercontent.com/anzaldoignacio/jimaku-extension/refs/heads/main/jimaku.js",
+    "options": {
+      "apiKey": {
+        "type": "string",
+        "description": "jimaku.cc API key (create one at jimaku.cc → Account → Generate API key)",
+        "default": ""
+      },
+      "maxFiles": {
+        "type": "number",
+        "description": "Maximum number of files to load per episode",
+        "default": 5
+      }
+    }
+  }
+]
