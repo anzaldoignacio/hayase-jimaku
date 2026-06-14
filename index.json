@@ -12,8 +12,8 @@
     "languages": ["JP"],
     "url": "aHR0cHM6Ly9qaW1ha3UuY2M=",
     "icon": "https://jimaku.cc/favicon.ico",
-    "update": "https://raw.githubusercontent.com/anzaldoignacio/jimaku-extension/refs/heads/main/index.json",
-    "code": "https://raw.githubusercontent.com/anzaldoignacio/jimaku-extension/refs/heads/main/jimaku.js",
+    "update": "https://raw.githubusercontent.com/anzaldoignacio/hayase-jimaku/refs/heads/main/index.json",
+    "code": "https://raw.githubusercontent.com/anzaldoignacio/hayase-jimaku/refs/heads/main/jimaku.js",
     "options": {
       "apiKey": {
         "type": "string",
